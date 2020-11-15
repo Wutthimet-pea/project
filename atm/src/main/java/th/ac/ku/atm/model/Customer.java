@@ -1,14 +1,19 @@
 package th.ac.ku.atm.model;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+@Entity
 public class Customer {
+    @Id
     private int id;
     private String name;
-    private int pin;
+    private String pin;
 
+    public Customer() {}
     public Customer(int id, String name, int pin) {
         this.id = id;
         this.name = name;
-        this.pin = pin;
+        this.pin = String.valueOf(pin);
     }
 
     public int getId() {
@@ -27,11 +32,11 @@ public class Customer {
         this.name = name;
     }
 
-    public int getPin() {
+    public String getPin() {
         return pin;
     }
 
-    public void setPin(int pin) {
+    public void setPin(String pin) {
         this.pin = pin;
     }
 }
