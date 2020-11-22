@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/main_layout}"
+      xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link th:rel="stylesheet" th:href="@{css/bootstrap.min.css}">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link th:rel="stylesheet" th:href="@{css/mystyle.css}">
+</head>
+<body>
+<div layout:fragment="content" class="container">
+    <div class="jumbotron">
+        <h1 class="display-4 my-font" th:text="Week3"></h1>
+    </div>
+    <h1>Git (Version Control System)</h1>
+    <div class="jumbotron">
+        <h3>1.Git Basic</h3>
+        <h4><a href="https://docs.google.com/document/d/1Q__ox3JEiiaMBH5H4ygL8k11zpipovkkhNPVa8kX4t0/edit?usp=sharing">-Lab sheet</a></h4>
+        <h4><a href="https://drive.google.com/file/d/149_5lqk_tMT4cAk2K-wDaCP-AArhTCfs/view?usp=sharing" >-Video</a></h4>
+        <h3>2.Git branch, merge, pull</h3>
+        <h4><a href="https://docs.google.com/document/d/1jaN0J3PNZ3JgHc0Wd2IdCg0IzBLHJuvz6U7a3BVjSLk/edit?usp=sharing">-Lab sheet</a></h4>
+        <h4><a href="https://drive.google.com/file/d/1M0s-3hfE8eWYYekmw4G03Ar6Y0DkjNDr/view?usp=sharing" >-Video Branch, Merge</a></h4>
+        <h4><a href="https://drive.google.com/file/d/1IlN2oyrfsrkDfwhxXu0qD9pw7l7uzw7d/view?usp=sharing " >-Video Pull</a></h4>
+        <h3>3.Git tag</h3>
+        <h4><a href="https://docs.google.com/document/d/12busbg7HmR4hdTZQlJhNQx9Uk07xbDOkQo8iTpD3e2A/edit?usp=sharing">-Lab sheet</a></h4>
+        <h4><a href="https://drive.google.com/file/d/1VL5reBPO-hqLLc6T_7koa1_FZkYQ2gdb/view?usp=sharing" >-Video</a></h4>
+
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script th:src="@{js/bootstrap.min.js}"></script>
+
+</body>
+</html>

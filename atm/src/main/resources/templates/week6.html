@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/main_layout}"
+      xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link th:rel="stylesheet" th:href="@{css/bootstrap.min.css}">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link th:rel="stylesheet" th:href="@{css/mystyle.css}">
+</head>
+<body>
+<div layout:fragment="content" class="container">
+    <div class="jumbotron">
+        <h1 class="display-4 my-font" th:text="Week6"></h1>
+    </div>
+    <h1>Java Programming (Composition and Dependency Injection)</h1>
+    <div class="jumbotron">
+        <h3>Composition</h3>
+        <h4><a href="https://drive.google.com/file/d/1_1j-EXy3GY8Cf_IlOWyLgtFvkSy1sfWA/view">Sheet</a></h4>
+        <h4><a href="https://drive.google.com/file/d/14aIty9rsuPu3GFHp9D28n294j3UsLyQm/view">Video1</a></h4>
+        <h4><a href="https://drive.google.com/file/d/1q7_QNjZFPUcD2laC26EhG1UH4Sae6XWh/view">Video2</a></h4>
+        <h4><a href="https://drive.google.com/file/d/1iEWvgUjmpuPSTb29QRnfIpOFje59gcrs/view">Video3</a></h4>
+        <h4><a href="https://drive.google.com/file/d/1jGjT6RppjvalN6BISVsd6Wwg6PXePi13/view">Video4</a></h4>
+        <h3>Dependenccy</h3>
+        <h4><a href="https://drive.google.com/file/d/1r0ZRFSGnFCr-7l4wDeG4FzIbrjpis7Kd/view">Sheet</a></h4>
+        <h4><a href="https://drive.google.com/file/d/1CDu8_Tp6fXSYb-nwAi7qJFRjAlJoDa-b/view">Video1</a></h4>
+        <h4><a href="https://drive.google.com/file/d/17uGAmOsaJ1SIG5Mlv2NicbQZEaJ2yJXr/view">Video2</a></h4>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script th:src="@{js/bootstrap.min.js}"></script>
+
+</body>
+</html>

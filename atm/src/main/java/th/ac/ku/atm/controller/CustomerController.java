@@ -10,7 +10,7 @@ import th.ac.ku.atm.service.CustomerService;
 import th.ac.ku.atm.model.Customer;
 
 @Controller
-@RequestMapping("/customer")
+@RequestMapping("/week1")
 public class CustomerController {
 
     private CustomerService customerService;
@@ -22,7 +22,7 @@ public class CustomerController {
     @GetMapping
     public String getCustomerPage(Model model) {
         model.addAttribute("allCustomers", customerService.getCustomers());
-        return "customer";
+        return "week1";
     }
 
     @PostMapping

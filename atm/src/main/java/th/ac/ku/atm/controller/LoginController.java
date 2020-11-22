@@ -10,7 +10,7 @@ import th.ac.ku.atm.model.Customer;
 import th.ac.ku.atm.service.CustomerService;
 
 @Controller
-@RequestMapping("/login")
+@RequestMapping("/week2")
 public class LoginController {
     private CustomerService customerService;
 
@@ -20,7 +20,7 @@ public class LoginController {
 
     @GetMapping
     public String getLoginPage() {
-        return "login";   // return login.html
+        return "week2";   // return week2.html
     }
     @PostMapping
     public String login(@ModelAttribute Customer customer, Model model) {

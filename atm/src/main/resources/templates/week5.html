@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/main_layout}"
+      xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link th:rel="stylesheet" th:href="@{css/bootstrap.min.css}">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link th:rel="stylesheet" th:href="@{css/mystyle.css}">
+</head>
+<body>
+<div layout:fragment="content" class="container">
+    <div class="jumbotron">
+        <h1 class="display-4 my-font" th:text="Week5"></h1>
+    </div>
+    <h1>UXUI</h1>
+    <div class="jumbotron">
+        <h3>Introduction to UXUI</h3> <h4><a href="https://drive.google.com/file/d/1IlWoXmCUos7-PhBH06ObfWtZVPbWFv6j/view">Video</a></h4>
+        <h3>UX I --Persona</h3> <h4><a href="https://docs.google.com/document/d/1zL66wzX3oXOcCl0gSYFu2vvwghgiEQf-hH4kDD-yeEc/edit">Sheet</a></h4> <h4><a href="https://drive.google.com/file/d/184E0kbCscTHBPhRKDidc9hTk4SxPcUfg/view">Video</a></h4>
+        <h3>UX II --User Journey</h3> <h4><a href="https://docs.google.com/document/d/192jluiXCXhEM4sH8ejgTJcwkb9IjfKGf7tUusszvZPI/edit">Sheet</a></h4> <h4><a href="https://drive.google.com/file/d/1fE80z3GInkvXBqsCiMj8NhSvNU30K3pO/view">Video</a></h4>
+        <h3>UX III --Experience Design</h3> <h4><a href="https://docs.google.com/document/d/1ermkUIzOh5Q79g7GEx6RMPI_x78w-ZL0Af17u6MMKck/edit">Sheet</a></h4> <h4><a href="https://drive.google.com/file/d/1yb-4fAmBdMlYjy6tqY87JDGBuzo4sFLh/view">Video</a></h4>
+        <h3>UI</h3> <h4><a href="https://drive.google.com/file/d/1dPE1A1p7nXfh8G-yXlm8rfoZhKaqOREg/view">Sheet</a></h4> <h4><a href="https://drive.google.com/file/d/1r3g6mBLfwnm90g2tIq-XFp51SyBlQqNz/view">Video</a></h4>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script th:src="@{js/bootstrap.min.js}"></script>
+
+</body>
+</html>
