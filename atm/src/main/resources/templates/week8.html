@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/main_layout}"
+      xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link th:rel="stylesheet" th:href="@{css/bootstrap.min.css}">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link th:rel="stylesheet" th:href="@{css/mystyle.css}">
+</head>
+<body>
+<div layout:fragment="content" class="container">
+    <div class="jumbotron">
+        <h1 class="display-4 my-font" th:text="Week8"></h1>
+        <h5><a href="https://docs.google.com/document/d/1B7tSq-FEbGV7v2vKx4SN7mU1S0fXk-26Ip2lQQDSw6c/edit">Lab Sheet</a></h5>
+    </div>
+    <h1>Unix 101</h1>
+    <div class="jumbotron">
+        <h3>1.การแสดงรายการแฟ้มข้อมูล</h3>
+        <h4><a href="https://drive.google.com/file/d/1JqU4mdjn3Ts733oeF3aEabZV0AwMlRmr/view">Video</a></h4>
+        <h3>2.การให้สิทธิ์เกี่ยวกับแฟ้มข้อมูล</h3>
+        <h4><a href="https://drive.google.com/file/d/1XFFRhUKLRZowDZAJkaCvCC7HsDu4u5bv/view?usp=sharing">Video</a></h4>
+        <h3>3.การดำเนินการกับแฟ้มข้อมูลเบื้องต้น</h3>
+        <h4><a href="https://drive.google.com/file/d/1RgJxN-u7nbu7Xf2ZrdmhH5jIW-D_mAag/view?usp=sharing">Video</a></h4>
+        <h3>4.เท็กท์ เอดิเทอร์</h3>
+        <h4><a href="https://drive.google.com/file/d/1RIfMgBsMcXZOcj4DRuFn2PzJq_h55xMj/view?usp=sharing">Video</a></h4>
+        <h3>5.แบช เชลล์ (Bash Shell)</h3>
+        <h4><a href="https://drive.google.com/file/d/16QlSOvArY-w4UHS_Gf0SjgElW5zGXLqD/view?usp=sharing">Video</a></h4>
+        <h3>6.ข้อมูลระบบ</h3>
+        <h4><a href="https://drive.google.com/file/d/1m1kHEKfK0YlHqNkhkk3rEt7yZK9deL1S/view?usp=sharing">Video</a></h4>
+        <h3>7.Pipes และ Grep</h3>
+        <h4><a href="https://drive.google.com/file/d/1L0_J8tGqt1AnY3bsy2Elf5eCOVPFUudO/view?usp=sharing">Video</a></h4>
+        <h3>8.การดูเนื้อหาภายในไฟล์</h3>
+        <h4><a href="https://drive.google.com/file/d/1QdUv9LmsixMq5N2VxG7wbuQZlT5axshU/view?usp=sharing">Video</a></h4>
+        <h3>9.ลิงค์</h3>
+        <h4><a href="https://drive.google.com/file/d/1g78TVMlgV9qDVjJeDkSpkAVZw7zKmfYJ/view">Video</a></h4>
+        <h3>10.โพรเซl</h3>
+        <h4><a href="https://drive.google.com/file/d/19mH7CE7lcHfwPHV3ehSAwtqeF-qm6HnC/view?usp=sharing">Video</a></h4>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script th:src="@{js/bootstrap.min.js}"></script>
+
+</body>
+</html>

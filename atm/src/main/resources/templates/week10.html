@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/main_layout}"
+      xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link th:rel="stylesheet" th:href="@{css/bootstrap.min.css}">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link th:rel="stylesheet" th:href="@{css/mystyle.css}">
+</head>
+<body>
+<div layout:fragment="content" class="container">
+    <div class="jumbotron">
+        <h1 class="display-4 my-font" th:text="Week10"></h1>
+        <h5><a href="https://docs.google.com/document/d/1JtQZsBHmOf-BDUX_W_kOSZkaOoHDct-dHJKU_UVxB5U/edit?usp=sharing">Lab Sheet</a></h5>
+    </div>
+    <h1>Database Connection</h1>
+    <div class="jumbotron">
+        <h3>1.Introduction and Setup</h3>
+        <h4><a href="https://drive.google.com/file/d/1PS7HB3FoGHv08SKnAUut5RCD9LR6no7t/view?usp=sharing">Video</a></h4>
+        <h3>2.การเขียนโค้ดต่อกับ database</h3>
+        <h4><a href="https://drive.google.com/file/d/1djmHa7q74UR6X9NslMLRosmjGn6-vlA7/view?usp=sharing">Video</a></h4>
+        <h3>3.MySQL Connection</h3>
+        <h4><a href="https://drive.google.com/file/d/18T3iNOVP9jOHv0QeJ4UK4sFN-PM5BJ1D/view?usp=sharing">Video</a></h4>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script th:src="@{js/bootstrap.min.js}"></script>
+
+</body>
+</html>
